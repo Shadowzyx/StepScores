@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StepScores"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Scores" Height="410.985" Width="787.5">
     <Grid>
+        <ListView x:Name="ScoresList" Margin="10,0,10,64">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Titre" DisplayMemberBinding="{Binding Titre}"/>
+                    <GridViewColumn Header="Auteur" DisplayMemberBinding="{Binding Auteur}"/>
+                    <GridViewColumn Header="Mappeur" DisplayMemberBinding="{Binding Mappeur}"/>
+                    <GridViewColumn Header="Rate" DisplayMemberBinding="{Binding Rate}"/>
+                    <GridViewColumn Header="Score" DisplayMemberBinding="{Binding Score}"/>
+                    <GridViewColumn Header="Flawless" DisplayMemberBinding="{Binding Flawless}"/>
+                    <GridViewColumn Header="Perfect" DisplayMemberBinding="{Binding Perfect}"/>
+                    <GridViewColumn Header="Great" DisplayMemberBinding="{Binding Great}"/>
+                    <GridViewColumn Header="Good" DisplayMemberBinding="{Binding Good}"/>
+                    <GridViewColumn Header="Bad" DisplayMemberBinding="{Binding Bad}"/>
+                    <GridViewColumn Header="Miss" DisplayMemberBinding="{Binding Miss}"/>
+                    <GridViewColumn Header="OK" DisplayMemberBinding="{Binding OK}"/>
+                    <GridViewColumn Header="NG" DisplayMemberBinding="{Binding NG}"/>
+                </GridView>
+            </ListView.View>
+            
+        </ListView>
         
     </Grid>
 </Window>

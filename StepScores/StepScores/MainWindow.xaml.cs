@@ -23,6 +23,7 @@ namespace StepScores
         public MainWindow()
         {
             InitializeComponent();
+
         }
     }
 }
