@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Scores" Height="437.5" Width="787.5">
     <Grid>
-        <ListView x:Name="ScoresList" Margin="10,50,10,64">
+        <ListView x:Name="ScoresList" Margin="10,50,10,64" KeyDown="ScoresList_KeyDown">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Titre" DisplayMemberBinding="{Binding Titre}" Width="100"/>
@@ -31,7 +31,7 @@
         </ListView>
         <TextBox x:Name="search" Height="30" Margin="10,10,473,0" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="search_TextChanged"/>
         <Button Content="Ajouter un score" HorizontalAlignment="Left" Margin="10,0,0,10" Width="112" Height="28" VerticalAlignment="Bottom" Click="Button_Click"/>
-        <ComboBox x:Name="Type" HorizontalAlignment="Left" Margin="339,10,0,0" VerticalAlignment="Top" Width="154" Height="30"/>
+        <ComboBox x:Name="Type" HorizontalAlignment="Left" Margin="339,10,0,0" VerticalAlignment="Top" Width="154" Height="30" SelectionChanged="Type_SelectionChanged"/>
         <CheckBox x:Name="AA" Content="AA only" HorizontalAlignment="Left" Margin="681,10,0,0" VerticalAlignment="Top" Checked="AAChanged" Unchecked="AAChanged"/>
 
     </Grid>

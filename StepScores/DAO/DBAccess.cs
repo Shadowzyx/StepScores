@@ -27,5 +27,21 @@ namespace DAO
         {
             return StepDB.Scores.Where(s => s.Titre.Contains(filter) || s.Artiste.Contains(filter) || s.Mappeur.Contains(filter)).ToList();
         }
+
+        public static List<Scores> GetFilterTypeScore(string filter, string type)
+        {
+            return GetFilterScore(filter).Where(x => x.Type == type).ToList();
+        }
+
+        public static List<Scores> GetTypeScore(string type)
+        {
+            return StepDB.Scores.Where(x => x.Type == type).ToList();
+        }
+
+        public static void RemoveFromDB(Scores score)
+        {
+            StepDB.Scores.Remove(score);
+            StepDB.SaveChanges();
+        }
     }
 }
