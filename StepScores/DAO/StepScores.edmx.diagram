@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="4149b90a09844d3797f6566a858dd48e" Name="Diagram1" ZoomLevel="97">
+      <Diagram DiagramId="eeaeed31adc84fdd9aca1909d8cb32e3" Name="Diagram1" ZoomLevel="93">
         <EntityTypeShape EntityType="StepmaniaModel.Scores" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
       </Diagram>
     </edmx:Diagrams>

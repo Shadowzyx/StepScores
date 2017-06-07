@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StepmaniaModelStoreContainer" CdmEntityContainer="StepmaniaEntities">
+    <EntitySetMapping Name="Scores">
+      <EntityTypeMapping TypeName="StepmaniaModel.Scores">
+        <MappingFragment StoreEntitySet="Scores">
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Titre" ColumnName="Titre" />
+          <ScalarProperty Name="Artiste" ColumnName="Artiste" />
+          <ScalarProperty Name="Mappeur" ColumnName="Mappeur" />
+          <ScalarProperty Name="Pack" ColumnName="Pack" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="ScoreDP" ColumnName="ScoreDP" />
+          <ScalarProperty Name="Flawless" ColumnName="Flawless" />
+          <ScalarProperty Name="Perfect" ColumnName="Perfect" />
+          <ScalarProperty Name="Great" ColumnName="Great" />
+          <ScalarProperty Name="Good" ColumnName="Good" />
+          <ScalarProperty Name="Bad" ColumnName="Bad" />
+          <ScalarProperty Name="Miss" ColumnName="Miss" />
+          <ScalarProperty Name="OK" ColumnName="OK" />
+          <ScalarProperty Name="NG" ColumnName="NG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

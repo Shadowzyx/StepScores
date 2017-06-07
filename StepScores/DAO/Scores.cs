@@ -18,6 +18,7 @@ namespace DAO
         public string Titre { get; set; }
         public string Artiste { get; set; }
         public string Mappeur { get; set; }
+        public string Pack { get; set; }
         public decimal Rate { get; set; }
         public decimal ScoreDP { get; set; }
         public decimal Flawless { get; set; }
@@ -28,5 +29,6 @@ namespace DAO
         public decimal Miss { get; set; }
         public decimal OK { get; set; }
         public decimal NG { get; set; }
+        public string Type { get; set; }
     }
 }

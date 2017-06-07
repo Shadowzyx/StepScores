@@ -1,0 +1,12 @@
+C:\Users\portable\Desktop\StepScores\StepScores\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\portable\Desktop\StepScores\StepScores\DAO\bin\Debug\DAO.dll.config
+C:\Users\portable\Desktop\StepScores\StepScores\DAO\bin\Debug\DAO.dll
+C:\Users\portable\Desktop\StepScores\StepScores\DAO\bin\Debug\DAO.pdb
+C:\Users\portable\Desktop\StepScores\StepScores\DAO\bin\Debug\EntityFramework.dll
+C:\Users\portable\Desktop\StepScores\StepScores\DAO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\portable\Desktop\StepScores\StepScores\DAO\bin\Debug\EntityFramework.xml
+C:\Users\portable\Desktop\StepScores\StepScores\DAO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\portable\Desktop\StepScores\StepScores\DAO\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\portable\Desktop\StepScores\StepScores\DAO\obj\Debug\DAO.dll
+C:\Users\portable\Desktop\StepScores\StepScores\DAO\obj\Debug\DAO.pdb
+C:\Users\portable\Desktop\StepScores\StepScores\DAO\bin\Debug\fr\EntityFramework.SqlServer.resources.dll

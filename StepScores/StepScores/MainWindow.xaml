@@ -13,8 +13,10 @@
                     <GridViewColumn Header="Titre" DisplayMemberBinding="{Binding Titre}"/>
                     <GridViewColumn Header="Auteur" DisplayMemberBinding="{Binding Auteur}"/>
                     <GridViewColumn Header="Mappeur" DisplayMemberBinding="{Binding Mappeur}"/>
+                    <GridViewColumn Header="Pack" DisplayMemberBinding="{Binding Pack}"/>
+                    <GridViewColumn Header="Type" DisplayMemberBinding="{Binding Type}"/>
                     <GridViewColumn Header="Rate" DisplayMemberBinding="{Binding Rate}"/>
-                    <GridViewColumn Header="Score" DisplayMemberBinding="{Binding Score}"/>
+                    <GridViewColumn Header="Score" DisplayMemberBinding="{Binding ScoreDP}"/>
                     <GridViewColumn Header="Flawless" DisplayMemberBinding="{Binding Flawless}"/>
                     <GridViewColumn Header="Perfect" DisplayMemberBinding="{Binding Perfect}"/>
                     <GridViewColumn Header="Great" DisplayMemberBinding="{Binding Great}"/>
@@ -27,7 +29,8 @@
             </ListView.View>
 
         </ListView>
-        <TextBox x:Name="search" HorizontalAlignment="Left" Height="35" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="345"/>
+        <TextBox x:Name="search" Height="35" Margin="10,10,473,0" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="search_TextChanged"/>
+        <Button Content="Ajouter un score" HorizontalAlignment="Left" Margin="10,0,0,10" Width="112" Height="28" VerticalAlignment="Bottom" Click="Button_Click"/>
 
     </Grid>
 </Window>

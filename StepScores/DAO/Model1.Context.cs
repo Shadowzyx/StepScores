@@ -13,10 +13,10 @@ namespace DAO
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class StepmaniaEntities1 : DbContext
+    public partial class StepmaniaEntities : DbContext
     {
-        public StepmaniaEntities1()
-            : base("name=StepmaniaEntities1")
+        public StepmaniaEntities()
+            : base("name=StepmaniaEntities")
         {
         }
     

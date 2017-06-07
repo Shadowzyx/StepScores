@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StepmaniaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Scores">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Titre" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Artiste" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Mappeur" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Pack" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Rate" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="ScoreDP" Type="Decimal" Precision="5" Scale="2" Nullable="false" />
+    <Property Name="Flawless" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Perfect" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Great" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Good" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Bad" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Miss" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="OK" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="NG" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Type" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="StepmaniaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Scores" EntityType="Self.Scores" />
+  </EntityContainer>
+</Schema>
