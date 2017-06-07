@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StepScores"
         mc:Ignorable="d"
-        Title="Scores" Height="410.985" Width="787.5">
+        Title="Scores" Height="437.5" Width="787.5">
     <Grid>
-        <ListView x:Name="ScoresList" Margin="10,0,10,64">
+        <ListView x:Name="ScoresList" Margin="10,50,10,64">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Titre" DisplayMemberBinding="{Binding Titre}"/>
@@ -25,8 +25,9 @@
                     <GridViewColumn Header="NG" DisplayMemberBinding="{Binding NG}"/>
                 </GridView>
             </ListView.View>
-            
+
         </ListView>
-        
+        <TextBox x:Name="search" HorizontalAlignment="Left" Height="35" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="345"/>
+
     </Grid>
 </Window>

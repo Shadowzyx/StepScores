@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAO
 {
-    class DBAccess
+    public class DBAccess
     {
         public static StepmaniaEntities1 StepDB = null;
 
@@ -16,6 +16,11 @@ namespace DAO
             {
                 StepDB = new StepmaniaEntities1();
             }
+        }
+
+        public static List<Scores> GetAllScores()
+        {
+            return StepDB.Scores.ToList();
         }
     }
 }
